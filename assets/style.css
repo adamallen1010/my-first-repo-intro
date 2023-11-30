@@ -1,1 +1,232 @@
 /* Copy your CSS code from CodePen below this point */
+body {
+    background-color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-bar {
+    background-color: wheat;
+    height: 45px;
+    padding: 5px;
+  }
+  
+  #nav-items {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container-with-background {
+    background-image: url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-attachment: fixed;
+    height: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 0;
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* id selector starts here */
+  #menu-title {
+    width: 800px;
+    margin: 0 auto;
+    color: fireBrick;
+    font-size: 40px;
+    line-height: 3;
+  }
+  /* id selector ends here */
+  /* class selector starts here */
+  .name {
+    font-family: courier; /* changes font to courier */
+    font-size: 50px; /* sets font size */
+    text-align: center; /* centers text */
+    color: orangered; /* sets font color */
+    margin: 0 auto; /* centers text */
+    line-height: 100px; /* sets line height */
+  }
+  /* class selector ends here */
+  .title {
+    width: 800px; /* sets width of container */
+    font-family: fireBrick;
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+    margin: 0 auto;
+  }
+  
+  .title,
+  #menu-title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wraps-sides {
+    font-family: georgia, sans-serif;
+    font-size: 30px;
+    width: 50%;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 20px; /* sets bottom margin */
+    border-bottom: 10px solid darkRed; /* creates a solid purple border 10 pixels thick underneath */
+  }
+  
+  .item {
+    font-family: papyrus;
+    color: fireBrick;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  #about-us {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    background-color: oldLace;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .about-title {
+    background-color: oldLace;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  
+  .text-about {
+    width: 500px;
+    height: 300px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+  
+  .img-food {
+    display: block; /* makes image a block element whose margin, width, height, etc. can be adjusted */
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .img-food,
+  .gallery-item {
+    border: 2px solid black;
+  }
+  
+  a {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+  
+  address {
+    text-align: center;
+    padding: 10px;
+    color: chocolate;
+    font-weight: bold; /* sets text to bold */
+  }
+  
+  .hours {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: chocolate;
+    font-weight: bold;
+  }
+  
+  .disclosure {
+    border: 2px red dashed;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+  
+  #gallery {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .gallery-item {
+    display: inline-block;
+    width: 300px;
+  }
+  
+  #socials {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+  
+  #logo {
+    opacity: 0;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url("https://drive.google.com/uc?export=view&id=1iXB_5JQBnq6WpcT9pa9IMncR_viWCPTL");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #quarterly {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+    background-color: wheat;
+  }
+  
+  .menu-section {
+    flex: 1;
+    box-sizing: border-box;
+  }
+  
+  #favorites {
+    background-color: oldLace;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:30px;
+  }
+  
+  .fan-fav {
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  #location-hours {
+    padding-top: 20px;
+  }
+  
+  #menu-title,
+  #favorites,
+  #location-hours {
+    opacity:0 ;
+  }
+  
