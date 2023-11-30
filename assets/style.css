@@ -17,7 +17,7 @@ body {
   }
   
   .container-with-background {
-    background-image: url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-image: url("./images/heroBackground.jpg");
     background-attachment: fixed;
     height: 600px;
     padding-top: 20px;
@@ -182,7 +182,7 @@ body {
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    background-image: url("https://drive.google.com/uc?export=view&id=1iXB_5JQBnq6WpcT9pa9IMncR_viWCPTL");
+    background-image: url("./images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
   }
